@@ -18,7 +18,7 @@ public class UtilitiesTestParameterized {
         util = new Utilities();
     }
 
-    @ParameterizedTest
+    @ParameterizedTest  
     @CsvSource({
             "ABCDEFF, ABCDEF",
             "AB88EFFG, AB8EFG",
